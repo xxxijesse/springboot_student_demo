@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
+/**
+ * 这是第一个分支
+ */
 @Controller
 @RequestMapping("/stu")
 public class StuController {
