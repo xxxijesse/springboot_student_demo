@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
+/**
+ * Amos修改第一次
+ */
 @Controller
 @RequestMapping("/stu")
 public class StuController {
