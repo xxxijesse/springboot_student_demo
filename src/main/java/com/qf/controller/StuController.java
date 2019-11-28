@@ -10,8 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 /**
- * Amos修改第一次
- * jesse修改一次
+ * 你好，我是好人！
  */
 @Controller
 @RequestMapping("/stu")
