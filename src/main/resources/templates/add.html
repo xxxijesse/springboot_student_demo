@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="/stu/add" method="post">
+        <tr>
+            <td>姓名</td>
+            <td><input type="text" name="name"/></td>
+        </tr>
+        <tr>
+            <td>年龄</td>
+            <td><input type="text" name="age"/></td>
+        </tr>
+        <tr>
+            <td>生日</td>
+            <td><input type="date" name="birthday"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" th:value="提交"/></td>
+        </tr>
+
+    </form>
+</body>
+</html>
